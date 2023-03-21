@@ -11,7 +11,7 @@ import FlexBetween from "components/FlexBetween";
 import { useDispatch } from "react-redux";
 import { setMode } from "state";
 import profileImage from "assets/profile.jpeg";
-import { AppBar, Toolbar, useTheme, IconButton } from "@mui/material";
+import { AppBar, Toolbar, useTheme, IconButton, InputBase } from "@mui/material";
 
 const Navbar = () => {
   const dispatch = useDispatch();
